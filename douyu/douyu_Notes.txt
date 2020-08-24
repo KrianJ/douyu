@@ -1,0 +1,15 @@
+a.获取主板块(main channel)
+    - http://capi.douyucdn.cn/api/v1/getColumnList
+b.主板块下子版块(sub channel)
+    - http://capi.douyucdn.cn/api/v1/getColumnDetail?shortName={0}
+    - {0}：shortName of main channel
+
+c.主板块下所有直播列表
+    - http://capi.douyucdn.cn/api/v1/getColumnRoom/<cate_id>?limit=20&offset=0
+    - <cate_id>: id of main channel
+d.子板块下所有直播列表
+    - http://capi.douyucdn.cn/api/v1/live/<tag_id>?&limit=1&offset=0
+    - <tag_id>: id of sub channel
+
+
+
