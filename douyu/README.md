@@ -1,9 +1,9 @@
-# Run this project by run run.py
+# 1.Run this project by run run.py
 
-# danmu.py takes charge of crawling danmu of single live-room
+# 2.danmu.py takes charge of crawling danmu of single live-room
 
-# danmu files stored in directory danmu_files
+# 3.danmu files stored in directory danmu_files
 
-# Unfinished part:
+# 4.Unfinished part:
 * realize long-keep connection in wss protocol by using websocket module.
 * cant generate the proper numbers of requests for each sub-channel.
